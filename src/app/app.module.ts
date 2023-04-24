@@ -12,7 +12,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './features/about/about.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { MenuComponent } from './features/menu/menu.component';
-
+import { MatButtonModule } from '@angular/material/button';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,8 @@ import { MenuComponent } from './features/menu/menu.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
+    MatButtonModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent],
